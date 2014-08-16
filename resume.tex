@@ -1,0 +1,134 @@
+%% resume.tex
+%% Copyright 2014 Christopher Wilson (cwilson@cdwilson.us)
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Christopher Wilson
+%
+% This work consists of the files resume.tex
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\name{Christopher}{Wilson}
+\title{Hardware Engineer}
+\address{1243 Roslyn Ln}{La Jolla, CA 92037}
+\phone[mobile]{+1~(858)~722~2298}
+\email{cwilson@cdwilson.us}
+\homepage{www.cdwilson.us}
+\social[linkedin]{cdwilson}
+\social[github]{cdwilson}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{2010 -- Present}{Hardware Engineer}{Cisco Systems}{San Jose, CA}{}
+{
+  \textit{Internet of Things (IoT) BU}
+  \begin{itemize}
+  \item Lead design engineer for Connected Grid Endpoint (CGE) SDK hardware reference design.
+    \begin{itemize}
+      \item Developed ARM Cortex-M3 based modular reference designs for 802.15.4g 900MHz RF and PLC smart grid endpoints.
+      \item Managed ECAD and MCAD contractors during PCB layout and enclosure design.
+      \item Responsible for NPI engineering using Cisco manufacturing tools.
+      \item Worked closely with Cisco Developer Network (CDN) partners to review partner CGE hardware designs for "Cisco Compatible" certification.
+    \end{itemize}
+  \item Designed the worlds largest closed-circuit RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
+    \begin{itemize}
+    \item Developed sophisticated custom rack-mount chassis and internal backplane PCB with embedded Linux ARM controller, providing networked back-channel and instruction-level JTAG/SWD debug to every endpoint in the testbed.
+    \item Modified Linux kernel source code and BSP to support custom backplane PCB hardware.
+    \item Developed user space applications in C for CLI device control via Telnet/SSH.
+    \item Developed Python CGI web application for device management from a web browser.
+    \end{itemize}
+  \item Managed DevOps for the Connected Grid Endpoint firmware team.
+    \begin{itemize}
+    \item Set up and maintained Git (SCM), Jenkins (CI and release build), and Gerrit (code review) servers
+    \item Developed build scripts in Windows batch and Bash for a hybrid Cygwin/IAR release firmware build server.
+    \end{itemize}
+  \end{itemize}
+}
+\cventry{2007 -- 2010}{Hardware Engineer}{Arch Rock}{San Francisco, CA}{}
+{
+  \begin{itemize}
+    \item Responsible for transition to agile in-house hardware design and manufacturing.  Adopted industry standard EDA, DFM, and PLM tools and methodology to scale hardware development for production.
+    \item Designed 802.15.4 2.4GHz “PhyNet” wireless sensor motes and network interface cards.
+      \begin{itemize}
+        \item Schematic capture and PCB layout using OrCAD Capture and Cadence Allegro.
+        \item Board level bring-up and verification using lab test equipment including multimeter, oscilloscope, spectrum analyzer, etc.
+        \item Basic PCB antenna characterization and tuning using a vector network analyzer.
+        \item Hand assembled and reworked prototype PCBs.
+      \end{itemize}
+    \item Developed embedded TinyOS firmware applications in nesC (network embedded systems C) for hardware bring-up and manufacturing test.  Debugged and optimized production runtime firmware with special emphasis on low power operation.
+    \item Designed and built a fully isolated wireless mesh testbed with reconfigurable RF topologies.
+    \begin{itemize}
+      \item Developed integration test scripts in Ruby to allow automated deployment of embedded firmware for devices in the testbed.
+      \item Tightly integrated testbed with Buildbot based continuous integration to facilitate automated regression testing for the full mesh network stack.
+    \end{itemize}
+  \end{itemize}
+}
+\cventry{2006}{Undergraduate Researcher}{Berkeley Wireless Research Center}{Berkeley, CA}{}
+{
+  \begin{itemize}
+    \item Implemented distributed adaptive duty cycling algorithm in nesC for Telos wireless sensor motes running TinyOS 1.x operating system.
+  \end{itemize}
+}
+\cventry{2004}{Interim Engineering Intern}{Qualcomm}{San Diego, CA}{}
+{
+  \textit{CDMA Technologies form factor accurate (FFA) baseband team}
+  \begin{itemize}
+    \item Developed framework for an intranet website used to track internal development of FFA hardware.
+  \end{itemize}
+}
+\subsection{Miscellaneous}
+\cventry{2010 -- Present}{Proprietor}{Flying Camp Design}{La Jolla, CA}{}
+{
+  \textit{Indie hardware and software design}
+  \begin{itemize}
+    \item Designed open-hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.  Over 100 programmers sold internationally to date.
+    \item Developed open-source, cross-platform BSL GUI utility in Python
+  \end{itemize}
+}
+\cventry{2010 -- 2014}{Partner}{Moteware}{Berkeley, CA}{}
+{
+  \textit{Open-hardware disseminator for the academic research community}
+  \begin{itemize}
+    \item Founded with a group of current and former graduate students at UC Berkeley
+    \item Managed sales, support, and IT for Moteware
+  \end{itemize}
+}
+
+\section{Education}
+\cventry{2003 -- 2007}{B.S. Electrical Engineering and Computer Science}{University of California Berkeley}{Berkeley, CA}{}{Awards: Edward Frank Kraft Scholarship\newline{}Activities and Societies: Alpha Gamma Omega, FoCUS, IEEE}
+
+\section{Skills \& Expertise}
+\cvitem{Lab}{PCA bring-up, electronic test equipment, hand rework, lab safety}
+\cvitem{EDA}{Cadence Concept and Allegro, OrCAD Capture, Cadsoft EAGLE}
+\cvitem{PLM}{Cisco Agile, Arena Solutions}
+\cvitem{Advanced}{Git, Python}
+\cvitem{Basic}{make, C, nesC, Bash, Ruby, Tcl/Tk, \LaTeX, Bazaar, SVN, CVS}
+\cvitem{Environment}{Mac OS X, Linux, Windows, Cygwin}
+
+\section{Interests}
+\cvitem{Travel}{Traveled extensively in Europe and parts of Africa.}
+\cvitem{Social Justice}{Projects in Kenya, Haiti, and Mexico.}
+\cvitem{Board sports}{Surfing, skateboarding, snowboarding, etc.}
+
+\end{document}
