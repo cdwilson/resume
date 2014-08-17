@@ -7,9 +7,9 @@ else
 ##### begin submodule-initialization targets
 .PHONY: all
 all:
-      @echo Run 'make setup' and then 'make' again.
+	@echo Run 'make setup' and then 'make' again.
 setup:
-      cd "$(shell git rev-parse --show-toplevel)" && git submodule init \
-              && git submodule update
+	cd "$(shell git rev-parse --show-toplevel)" && git submodule init \
+		&& git submodule update
 ##### end submodule action
 endif
