@@ -1,4 +1,4 @@
-%% resume.tex
+%% christopher_wilson_resume.tex
 %% Copyright 2014 Christopher Wilson (cwilson@cdwilson.us)
 %
 % This work may be distributed and/or modified under the
@@ -13,7 +13,7 @@
 %
 % The Current Maintainer of this work is Christopher Wilson
 %
-% This work consists of the files resume.tex
+% This work consists of the files christopher_wilson_resume.tex
 
 \documentclass[11pt,a4paper]{moderncv}
 
@@ -34,6 +34,16 @@
 \social[linkedin]{cdwilson}
 \social[github]{cdwilson}
 
+\makeatletter
+\AtBeginDocument{
+  \include{revision}
+  \hypersetup{
+    pdftitle = {\@firstname{}~\@lastname{} -- \@title{} -- Rev \Revision},
+    pdfsubject = {R\'{e}sum\'{e} of \@firstname{}~\@lastname{}},
+  }
+}
+\makeatother
+
 \begin{document}
 
 \makecvtitle
@@ -46,41 +56,40 @@
   \begin{itemize}
   \item Lead design engineer for Connected Grid Endpoint (CGE) SDK hardware reference design.
     \begin{itemize}
-      \item Developed ARM Cortex-M3 based modular reference designs for 802.15.4g 900MHz RF and PLC smart grid endpoints.
+      \item Designed ARM Cortex-M3 based modular reference designs for 802.15.4g 900MHz RF and PLC smart grid endpoints.  Schematic capture in Cadence Concept.
       \item Managed ECAD and MCAD contractors during PCB layout and enclosure design.
       \item Responsible for NPI engineering using Cisco manufacturing tools.
-      \item Worked closely with Cisco Developer Network (CDN) partners to review partner CGE hardware designs for "Cisco Compatible" certification.
+      \item Worked closely with Cisco Developer Network (CDN) partners to review partner hardware designs for "Cisco Compatible" certification.
     \end{itemize}
-  \item Designed the worlds largest closed-circuit RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
+  \item Developed the worlds largest closed-circuit 900MHz RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
     \begin{itemize}
-    \item Developed sophisticated custom rack-mount chassis and internal backplane PCB with embedded Linux ARM controller, providing networked back-channel and instruction-level JTAG/SWD debug to every endpoint in the testbed.
+    \item Designed sophisticated custom rack-mount chassis and internal backplane PCB with embedded Linux ARM controller, providing networked back-channel and instruction-level JTAG/SWD debug to every endpoint in the testbed.
     \item Modified Linux kernel source code and BSP to support custom backplane PCB hardware.
-    \item Developed user space applications in C for CLI device control via Telnet/SSH.
+    \item Developed user space applications in C for CLI device control.
     \item Developed Python CGI web application for device management from a web browser.
     \end{itemize}
   \item Managed DevOps for the Connected Grid Endpoint firmware team.
     \begin{itemize}
-    \item Set up and maintained Git (SCM), Jenkins (CI and release build), and Gerrit (code review) servers
-    \item Developed build scripts in Windows batch and Bash for a hybrid Cygwin/IAR release firmware build server.
+    \item Set up and maintained Git (SCM), Jenkins (CI and release build), and Gerrit (code review) servers.
+    \item Developed build scripts in Windows batch and Bash for a hybrid Cygwin/IAR firmware build server.
     \end{itemize}
   \end{itemize}
 }
-\cventry{2007 -- 2010}{Hardware Engineer}{Arch Rock}{San Francisco, CA}{}
+\cventry{2007 -- 2010}{Hardware Engineer}{Arch Rock (acquired by Cisco Systems)}{San Francisco, CA}{}
 {
   \begin{itemize}
     \item Responsible for transition to agile in-house hardware design and manufacturing.  Adopted industry standard EDA, DFM, and PLM tools and methodology to scale hardware development for production.
     \item Designed 802.15.4 2.4GHz “PhyNet” wireless sensor motes and network interface cards.
       \begin{itemize}
         \item Schematic capture and PCB layout using OrCAD Capture and Cadence Allegro.
-        \item Board level bring-up and verification using lab test equipment including multimeter, oscilloscope, spectrum analyzer, etc.
-        \item Basic PCB antenna characterization and tuning using a vector network analyzer.
+        \item Board level bring-up and verification using lab test equipment.
         \item Hand assembled and reworked prototype PCBs.
       \end{itemize}
     \item Developed embedded TinyOS firmware applications in nesC (network embedded systems C) for hardware bring-up and manufacturing test.  Debugged and optimized production runtime firmware with special emphasis on low power operation.
     \item Designed and built a fully isolated wireless mesh testbed with reconfigurable RF topologies.
     \begin{itemize}
       \item Developed integration test scripts in Ruby to allow automated deployment of embedded firmware for devices in the testbed.
-      \item Tightly integrated testbed with Buildbot based continuous integration to facilitate automated regression testing for the full mesh network stack.
+      \item Tightly integrated the testbed with Buildbot based continuous integration to facilitate automated regression testing for the full mesh network stack.
     \end{itemize}
   \end{itemize}
 }
@@ -102,33 +111,66 @@
 {
   \textit{Indie hardware and software design}
   \begin{itemize}
-    \item Designed open-hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.  Over 100 programmers sold internationally to date.
-    \item Developed open-source, cross-platform BSL GUI utility in Python
+    \item Designed open source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
+    \item Manufactured and sold over 100 programmers internationally.
+    \item Developed open source cross-platform BSL GUI utility in Python.
   \end{itemize}
 }
-\cventry{2010 -- 2014}{Partner}{Moteware}{Berkeley, CA}{}
+\cventry{2010 -- Present}{Partner}{Moteware}{Berkeley, CA}{}
 {
-  \textit{Open-hardware disseminator for the academic research community}
+  \textit{Open source hardware disseminator for the academic research community}
   \begin{itemize}
-    \item Founded with a group of current and former graduate students at UC Berkeley
-    \item Managed sales, support, and IT for Moteware
+    \item Founded with a group of former graduate students at UC Berkeley.
+    \item Helped manage sales, support, IT, and manufacturing.
   \end{itemize}
 }
 
 \section{Education}
-\cventry{2003 -- 2007}{B.S. Electrical Engineering and Computer Science}{University of California Berkeley}{Berkeley, CA}{}{Awards: Edward Frank Kraft Scholarship\newline{}Activities and Societies: Alpha Gamma Omega, FoCUS, IEEE}
+\cventry{2003 -- 2007}{B.S. Electrical Engineering and Computer Science}{University of California, Berkeley}{Berkeley, CA}{}{Awards: Edward Frank Kraft Scholarship\newline{}Activities and Societies: IEEE, Alpha Gamma Omega, FoCUS}
 
 \section{Skills \& Expertise}
-\cvitem{Lab}{PCA bring-up, electronic test equipment, hand rework, lab safety}
+\cvitem{Lab}{PCA bring-up, electronic test equipment, hand soldering/rework, lab safety}
 \cvitem{EDA}{Cadence Concept and Allegro, OrCAD Capture, Cadsoft EAGLE}
 \cvitem{PLM}{Cisco Agile, Arena Solutions}
 \cvitem{Advanced}{Git, Python}
-\cvitem{Basic}{make, C, nesC, Bash, Ruby, Tcl/Tk, \LaTeX, Bazaar, SVN, CVS}
+\cvitem{Basic}{make, C, nesC, Java, Bash, Ruby, Tcl/Tk, \LaTeX, Bazaar, SVN, CVS}
 \cvitem{Environment}{Mac OS X, Linux, Windows, Cygwin}
 
 \section{Interests}
 \cvitem{Travel}{Traveled extensively in Europe and parts of Africa.}
 \cvitem{Social Justice}{Projects in Kenya, Haiti, and Mexico.}
-\cvitem{Board sports}{Surfing, skateboarding, snowboarding, etc.}
+\cvitem{Sports}{Surfing, skateboarding, snowboarding, biking, lacrosse}
+
+\section{References}
+\cvitem{}{Available upon request.}
+
+% \makecvfooter{test}
+% \newlength{\footerwidth}
+% \newlength{\footerboxwidth}%
+% \setlength{\footerwidth}{0.8\textwidth}%
+% \fancypagestyle{plain}{
+%   \fancyfoot[c]{
+%     \parbox[b]{0.8\textwidth}{
+%       \centering
+%       \color{color2}
+%       \vspace{\baselineskip}
+%       \vspace{-\baselineskip}
+%       \strut{\bfseries\upshape\@firstname~\@lastname}
+%       \addtofooter[]{test}
+%     }
+%   }
+% }
+% \ifthenelse{\lengthtest{\footerboxwidth=0pt}}{}{\flushfooter}
+% \pagestyle{plain}
+% \fancyfoot[c]{%
+%   \parbox[b]{0.8\textwidth}{%
+%     \centering%
+%       \vspace{\baselineskip}% forces a white line to ensure space between main text and footer (as footer height can't be known in advance)
+%       \vspace{-\baselineskip}% to cancel out the extra vertical space taken by the name (below) and ensure perfect alignment of letter and cv footers
+%       \strut{\bfseries\upshape firstname~lastname}\\% the \strut is required to ensure the line is exactly \baselineskip tall
+%       street number~city\\
+%       phone~email~etc.
+%   }%end parbox
+% }%end fancyfoot
 
 \end{document}
