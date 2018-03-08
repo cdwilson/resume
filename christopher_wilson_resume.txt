@@ -1,19 +1,13 @@
 Christopher Wilson
 Hardware Design Engineer
 
-4056 Valente Ct
-Lafayette, CA 94549
+5645 Cold Water Dr.
+Castro Valley, CA 94552
 +1 (858) 722 2298
-cwilson@cdwilson.us
-www.cdwilson.us
-https://www.linkedin.com/in/cdwilson
-https://github.com/cdwilson
-
-
-Summary
--------
-
-Accomplished hardware design engineer with experience in deeply embedded systems.  Developed IP-based low-power hardware platforms and reference designs for industrial monitoring and Smart Grid applications.  Detail oriented team player with proven ability to deliver projects under accelerated timelines.
+Email: cwilson@cdwilson.us
+Web: www.cdwilson.us
+LinkedIn: https://www.linkedin.com/in/cdwilson
+GitHub: https://github.com/cdwilson
 
 
 Experience
@@ -23,14 +17,25 @@ Experience
 
 2010 – Present
 Hardware Engineer, Cisco Systems, San Jose, CA.
+Internet of Things (IoT) BU
 
 * Lead design engineer for Connected Grid Endpoint (CGE) SDK hardware reference design.
--- Designed ARM Cortex-M3 based modular reference designs for 802.15.4g 900MHz RF and PLC smart grid endpoints. Schematic capture in Cadence Concept.
--- Managed ECAD and MCAD contractors during PCB layout and enclosure design.
+-- Designed ARM Cortex-M & Tensilica based modular reference designs for IEEE 802.15.4g 800/900 MHz RF and 1901.2 PLC smart grid endpoint devices.
+-- Managed external ECAD and MCAD contractors during PCB layout and enclosure design.
 -- Responsible for NPI engineering using Cisco manufacturing tools.
 -- Worked closely with Cisco Developer Network (CDN) partners to review partner hardware designs for "Cisco Compatible" certification.
 
-* Developed the worlds largest closed-circuit 900MHz RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
+* Co-designed Cisco’s first industrial "Fog" compute server module, allowing customers to
+utilize Cisco IOx hypervisor architecture to run Internet of Things (IoT) applications inside CGR 1000 series routers.
+-- Designed interface logic boards for AMD G-Series COM Express module to meet stringent
+worldwide and smart grid performance requirements for harsh operating environments.
+-- Validated HW design specifications over industrial operating temperature range, and performed physical layer qualification testing for SATA, Gigabit Ethernet, and USB
+interfaces.
+-- Worked with internal ECAD and MCAD teams to complete PCB layout and chassis
+design.
+-- Guided operations team to transition the product from NPI to production.
+
+* Developed the worlds largest closed-circuit RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
 -- Designed sophisticated custom rack-mount chassis and internal backplane PCB with embedded Linux ARM controller, providing networked back-channel and instruction-level JTAG/SWD debug to every endpoint in the testbed.
 -- Modified Linux kernel source code and BSP to support custom backplane PCB hardware.
 -- Developed user space applications in C for CLI device control.
@@ -47,7 +52,8 @@ Hardware Engineer, Arch Rock (acquired by Cisco Systems), San Francisco, CA.
 * Responsible for transition to agile in-house hardware design and manufacturing. Adopted industry standard EDA, DFM, and PLM tools and methodology to scale hardware development for production.
 
 * Designed 802.15.4 2.4GHz “PhyNet” wireless sensor motes and network interface cards.
--- Schematic capture and PCB layout using OrCAD Capture and Cadence Allegro. - Board level bring-up and verification using lab test equipment.
+-- Schematic capture and PCB layout using OrCAD Capture and Cadence Allegro. 
+-- Board level bring-up and verification using lab test equipment.
 -- Hand assembled and reworked prototype PCBs.
 
 * Developed embedded TinyOS firmware applications in nesC (network embedded systems C) for hardware bring-up and manufacturing test. Debugged and optimized production runtime firmware with special emphasis on low power operation.
@@ -72,15 +78,17 @@ Interim Engineering Intern, Qualcomm, San Diego, CA.
 ## Miscellaneous
 
 2010 – Present
-Proprietor, Flying Camp Design, La Jolla, CA.
+Proprietor, Flying Camp Design, Castro Valley, CA.
+Indie hardware and software design
 
 * Designed open source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
 * Manufactured and sold over 100 programmers internationally.
 * Developed open source cross-platform BSL GUI utility in Python.
 
 
-2010 – Present
+2010 – 2015
 Partner, Moteware, Berkeley, CA.
+Open source hardware disseminator for the academic research community
 
 * Founded with a group of former graduate students at UC Berkeley.
 * Helped manage sales, support, IT, and manufacturing.
