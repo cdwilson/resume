@@ -1,5 +1,5 @@
 Christopher Wilson
-Hardware Design Engineer
+Technical Product Manager
 
 5645 Cold Water Dr.
 Castro Valley, CA 94552
@@ -15,7 +15,10 @@ Experience
 
 ## Vocational
 
-2010 – Present
+2018 – Present
+Technical Product Manager, Tempo Automation, San Francisco, CA.
+
+2010 – 2018
 Hardware Engineer, Cisco Systems, San Jose, CA.
 Internet of Things (IoT) BU
 
@@ -75,7 +78,7 @@ Interim Engineering Intern, Qualcomm, San Diego, CA.
 * Developed framework for an intranet website used to track internal development of FFA hardware.
 
 
-## Miscellaneous
+## Hobby
 
 2010 – Present
 Proprietor, Flying Camp Design, Castro Valley, CA.
@@ -109,8 +112,7 @@ Skills & Expertise
 Lab: PCA bring-up, electronic test equipment, hand soldering/rework, lab safety
 EDA: Cadence Concept and Allegro, OrCAD Capture, Cadsoft EAGLE
 PLM: Cisco Agile, Arena Solutions
-Advanced: Git, Python
-Basic: make, C, nesC, Java, Bash, Ruby, Tcl/Tk, LaTeX, Bazaar, SVN, CVS
+Basic: Git, Python, make, C, nesC, Java, Bash, Ruby, Tcl/Tk, LaTeX, Bazaar, SVN, CVS
 Environment: Mac OS X, Linux, Windows, Cygwin
 
 
@@ -121,8 +123,3 @@ Travel: Traveled extensively in Europe and parts of Africa.
 Social Justice: Projects in Kenya, Haiti, and Mexico.
 Sports: Surfing, skateboarding, snowboarding, biking, lacrosse
 
-
-References
-----------
-
-Available upon request.
