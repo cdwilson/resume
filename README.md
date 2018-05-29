@@ -4,7 +4,10 @@ Download [christopher\_wilson\_resume.pdf][]
 
 ### Build instructions
 
-This résumé is built using the [moderncv][] class for LaTeX.  The instructions below assume macOS with MacPorts installed, but it should be simple to modify them for other platforms.
+This résumé is built using the [moderncv][] class for LaTeX.  The
+[pdflatex-makefile][] project is used to typeset the PDF.  The instructions
+below assume macOS with MacPorts installed, but it should be simple to modify
+them for other platforms.
 
 First, install the [TeX Live][] distribution via MacPorts:
 
@@ -12,11 +15,22 @@ First, install the [TeX Live][] distribution via MacPorts:
 sudo port install texlive texlive-latex-extra
 ```
 
-[pdflatex-makefile][] is used to typeset the PDF. Just run `make view`
-to generate and open the PDF.
+Next, check out this repository and run the initial setup:
 
-Note: The make process generates `revision.tex` which defines a new LaTeX command
-for the Git short rev:
+```bash
+git clone git@github.com:cdwilson/resume.git
+cd resume/
+make setup
+```
+
+To generate and open the PDF, just run
+
+```bash
+make view
+```
+
+Note: The make process generates `revision.tex` which defines a new LaTeX
+command for the Git short rev:
 
     \newcommand{\Revision}{760e7d3}
 
