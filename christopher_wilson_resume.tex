@@ -1,5 +1,5 @@
 %% christopher_wilson_resume.tex
-%% Copyright 2014 Christopher Wilson (cwilson@cdwilson.us)
+%% Copyright 2021 Christopher Wilson (christopher.david.wilson@gmail.com)
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either version 1.3
@@ -25,14 +25,19 @@
 \usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}
 
-\name{Christopher}{Wilson}
+\name{Chris}{Wilson}
 \title{Technical Product Manager}
 \address{5645 Cold Water Dr.}{Castro Valley, CA 94552}
 \phone[mobile]{+1~(858)~722~2298}
-\email{cwilson@cdwilson.us}
-\homepage{www.cdwilson.us}
+\email{christopher.david.wilson@gmail.com}
 \social[linkedin]{cdwilson}
 \social[github]{cdwilson}
+
+% https://tex.stackexchange.com/questions/5036/how-to-prevent-latex-from-hyphenating-the-entire-document/5039
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 \makeatletter
 \AtBeginDocument{
@@ -48,133 +53,51 @@
 
 \makecvtitle
 
-\section{Experience}
-\subsection{Vocational}
-\cventry{2018 -- Present}{Technical Product Manager}{Tempo Automation}{San Francisco, CA}{}{}
-\cventry{2010 -- 2018}{Hardware Design Engineer}{Cisco Systems}{San Jose, CA}{}
-{
-  \textit{Internet of Things (IoT) BU}
+\section{Vocational Experience}
+\cventry{2018 -- Present}{Technical Product Manager}{Tempo Automation}{San Francisco, CA}{}{
+  \textit{Software-Accelerated PCBA Manufacturing}
   \begin{itemize}
-  \item Lead design engineer for Connected Grid Endpoint (CGE) SDK hardware reference design.
-    \begin{itemize}
-      \item Designed ARM Cortex-M \& Tensilica based modular reference designs for IEEE 802.15.4g 800/900 MHz RF and 1901.2 PLC smart grid endpoint devices.
-      \item Managed external ECAD and MCAD contractors during PCB layout and enclosure design.
-      \item Responsible for NPI engineering using Cisco manufacturing tools.
-      \item Worked closely with Cisco Developer Network (CDN) partners to review partner hardware designs for "Cisco Compatible" certification.
-    \end{itemize}
-  \item Co-designed Cisco's first industrial "Fog" compute server module, allowing customers to utilize Cisco IOx hypervisor architecture to run Internet of Things (IoT) applications inside CGR 1000 series routers.
-    \begin{itemize}
-      \item Designed interface logic boards for AMD G-Series COM Express module to meet stringent worldwide and smart grid performance requirements for harsh operating environments.
-      \item Validated HW design specifications over industrial operating temperature range, and performed physical layer qualification testing for SATA, Gigabit Ethernet, and USB interfaces.
-      \item Worked with internal ECAD and MCAD teams to complete PCB layout and chassis design.
-      \item Guided operations team to transition the product from NPI to production.
-    \end{itemize}
-  \item Developed the worlds largest closed-circuit RF and PLC mesh network testbed consisting of over 5000 endpoint devices.
-    \begin{itemize}
-    \item Designed sophisticated custom rack-mount chassis and internal backplane PCB with embedded Linux ARM controller, providing networked back-channel and instruction-level JTAG/SWD debug to every endpoint in the testbed.
-    \item Modified Linux kernel source code and BSP to support custom backplane PCB hardware.
-    \item Developed user space applications in C for CLI device control.
-    \item Developed Python CGI web application for device management from a web browser.
-    \end{itemize}
-  \item Managed DevOps for the Connected Grid Endpoint firmware team.
-    \begin{itemize}
-    \item Set up and maintained Git (SCM), Jenkins (CI and release build), and Gerrit (code review) servers.
-    \item Developed build scripts in Windows batch and Bash for a hybrid Cygwin/IAR firmware build server.
-    \end{itemize}
+    \item Conducted user, market, and competitive research to identify product opportunities in the customer experience and inform the product roadmap communicated to c-level leadership.
+    \item Responsible for the design, planning, execution, and launch of real-time order status tracking and PCB design visualizaton features in the customer portal, contributing to a 19\% increase in NPS from 2018 to 2019.
+    \item Owned an iniatitive to reduce the time-to-RFQ by redesigning the bill of materials (BOM) editor, resulting in a 23\% reduction in the median BOM issue resolution time.
+    \item Established technical credibility with key customers by participating in IPC-2581 technical committee meetings, ultimately leading to investment from Lockheed Martin (Series C).
+    \item Currently leading research, ideation, and planning for a next-generation customer portal.
   \end{itemize}
 }
-\cventry{2007 -- 2010}{Hardware Engineer}{Arch Rock (acquired by Cisco Systems)}{San Francisco, CA}{}
+\cventry{2010 -- 2018}{Electronics Design Engineer}{Cisco Systems}{San Jose, CA}{}
 {
+  \textit{Industrial Internet of Things (IIoT) solutions for Smart Grid}
   \begin{itemize}
-    \item Responsible for transition to agile in-house hardware design and manufacturing.  Adopted industry standard EDA, DFM, and PLM tools and methodology to scale hardware development for production.
-    \item Designed 802.15.4 2.4GHz “PhyNet” wireless sensor motes and network interface cards.
-      \begin{itemize}
-        \item Schematic capture and PCB layout using OrCAD Capture and Cadence Allegro.
-        \item Board level bring-up and verification using lab test equipment.
-        \item Hand assembled and reworked prototype PCBs.
-      \end{itemize}
-    \item Developed embedded TinyOS firmware applications in nesC (network embedded systems C) for hardware bring-up and manufacturing test.  Debugged and optimized production runtime firmware with special emphasis on low power operation.
-    \item Designed and built a fully isolated wireless mesh testbed with reconfigurable RF topologies.
-    \begin{itemize}
-      \item Developed integration test scripts in Ruby to allow automated deployment of embedded firmware for devices in the testbed.
-      \item Tightly integrated the testbed with Buildbot based continuous integration to facilitate automated regression testing for the full mesh network stack.
-    \end{itemize}
+    \item Co-designed Cisco's first industrial IOx "fog" compute module, enabling customers to run custom IoT applications on Cisco 1000 Series Connected Grid Routers.
+    \item Lead electronics design engineer for IEEE 802.15.4g hardware reference designs used by Cisco DevNet partners to develop 3rd-party Connected Grid Endpoint (CGE) devices.
+    \item Developed the worlds largest closed-circuit mesh network testbed consisting of over 5000 IoT hardware endpoint devices, unlocking CI/CD workflows and remote development/debug/testing for internal firmware development teams.
   \end{itemize}
 }
-\cventry{2006}{Undergraduate Researcher}{Berkeley Wireless Research Center}{Berkeley, CA}{}
+\cventry{2007 -- 2010}{Electronics Design Engineer}{Arch Rock (acquired by Cisco Systems)}{San Francisco, CA}{}
 {
+  \textit{Pioneer in IP-based wireless sensor network technology}
   \begin{itemize}
-    \item Implemented distributed adaptive duty cycling algorithm in nesC for Telos wireless sensor motes running TinyOS 1.x operating system.
+    \item Responsible for transition to agile in-house hardware design and manufacturing.  Adopted industry standard EDA, DFM, PLM tools and methodology to scale hardware development from prototype to production.
+    \item Designed and launched 802.15.4 2.4GHz PhyNet™ wireless sensors and router network interface cards for enterprise-scale wireless sensor networks.
   \end{itemize}
 }
-\cventry{2004}{Interim Engineering Intern}{Qualcomm}{San Diego, CA}{}
-{
-  \textit{CDMA Technologies form factor accurate (FFA) baseband team}
-  \begin{itemize}
-    \item Developed framework for an intranet website used to track internal development of FFA hardware.
-  \end{itemize}
-}
-\subsection{Hobby}
+\section{Personal Projects}
 \cventry{2010 -- Present}{Proprietor}{Flying Camp Design}{Castro Valley, CA}{}
 {
-  \textit{Indie hardware and software design}
+  \textit{Open-source hardware products for embedded systems engineers}
   \begin{itemize}
-    \item Designed open source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
-    \item Manufactured and sold over 100 programmers internationally.
-    \item Developed open source cross-platform BSL GUI utility in Python.
+    \item Designed open-source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
+    \item Manufactured and sold to over 100 customers internationally.
+    \item Developed open-source cross-platform BSL GUI utility in Python.
   \end{itemize}
 }
-\cventry{2010 -- 2015}{Partner}{Moteware}{Berkeley, CA}{}
-{
-  \textit{Open source hardware disseminator for the academic research community}
-  \begin{itemize}
-    \item Founded with a group of former graduate students at UC Berkeley.
-    \item Helped manage sales, support, IT, and manufacturing.
-  \end{itemize}
-}
+
+\section{Skills \& Interests}
+\cvitem{Product}{Productboard, Jira, Clubhouse, Confluence, Git/Github, Python, Mixpanel, Tableau}
+\cvitem{EDA}{KiCad, Altium Designer, Cadence Concept \& Allegro, OrCAD Capture, Autodesk EAGLE}
+\cvitem{Interests}{Embedded systems, traveling, mountain biking, surfing, social justice projects}
 
 \section{Education}
-\cventry{2003 -- 2007}{B.S. Electrical Engineering and Computer Science}{University of California, Berkeley}{Berkeley, CA}{}{Awards: Edward Frank Kraft Scholarship\newline{}Activities and Societies: IEEE, Alpha Gamma Omega, FoCUS}
-
-\section{Skills \& Expertise}
-\cvitem{Lab}{PCA bring-up, electronic test equipment, hand soldering/rework, lab safety}
-\cvitem{EDA}{Cadence Concept and Allegro, OrCAD Capture, Cadsoft EAGLE}
-\cvitem{PLM}{Cisco Agile, Arena Solutions}
-\cvitem{Basic}{Git, Python, make, C, nesC, Java, Bash, Ruby, Tcl/Tk, \LaTeX, Bazaar, SVN, CVS}
-\cvitem{Environment}{Mac OS X, Linux, Windows, Cygwin}
-
-\section{Interests}
-\cvitem{Travel}{Traveled extensively in Europe and parts of Africa.}
-\cvitem{Social Justice}{Projects in Kenya, Haiti, and Mexico.}
-\cvitem{Sports}{Surfing, skateboarding, snowboarding, biking, lacrosse}
-
-% \makecvfooter{test}
-% \newlength{\footerwidth}
-% \newlength{\footerboxwidth}%
-% \setlength{\footerwidth}{0.8\textwidth}%
-% \fancypagestyle{plain}{
-%   \fancyfoot[c]{
-%     \parbox[b]{0.8\textwidth}{
-%       \centering
-%       \color{color2}
-%       \vspace{\baselineskip}
-%       \vspace{-\baselineskip}
-%       \strut{\bfseries\upshape\@firstname~\@lastname}
-%       \addtofooter[]{test}
-%     }
-%   }
-% }
-% \ifthenelse{\lengthtest{\footerboxwidth=0pt}}{}{\flushfooter}
-% \pagestyle{plain}
-% \fancyfoot[c]{%
-%   \parbox[b]{0.8\textwidth}{%
-%     \centering%
-%       \vspace{\baselineskip}% forces a white line to ensure space between main text and footer (as footer height can't be known in advance)
-%       \vspace{-\baselineskip}% to cancel out the extra vertical space taken by the name (below) and ensure perfect alignment of letter and cv footers
-%       \strut{\bfseries\upshape firstname~lastname}\\% the \strut is required to ensure the line is exactly \baselineskip tall
-%       street number~city\\
-%       phone~email~etc.
-%   }%end parbox
-% }%end fancyfoot
+\cventry{2003 -- 2007}{B.S. Electrical Engineering and Computer Science}{University of California, Berkeley}{Berkeley, CA}{}{Awards: Edward Frank Kraft Scholarship}
 
 \end{document}
