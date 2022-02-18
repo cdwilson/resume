@@ -36,6 +36,18 @@ To generate and open the PDF, just run
 make view
 ```
 
+To generate a snapshot including the git revision in the file name, run
+
+```bash
+make snapshot
+```
+
+To generate a camera-ready version with embedded fonts, run
+
+```bash
+make distill
+```
+
 Note: The make process generates `revision.tex` which defines a new LaTeX
 command for the Git short rev:
 
