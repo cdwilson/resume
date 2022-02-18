@@ -12,13 +12,14 @@ to modify them for other platforms.
 First, install the [MacTeX][] distribution via Homebrew:
 
 ```bash
+brew install exiftool
 brew install --cask mactex-no-gui
 ```
 
 or alternatively, install the [TeX Live][] distribution via MacPorts:
 
 ```bash
-sudo port install texlive texlive-latex-extra
+sudo port install texlive texlive-latex-extra exiftool
 ```
 
 Next, check out this repository and run the initial setup:
