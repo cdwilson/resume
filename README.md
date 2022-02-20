@@ -54,18 +54,22 @@ make distill
 Note: The make process generates `revision.tex` which defines a new LaTeX
 command for the Git short rev:
 
-    \newcommand{\Revision}{760e7d3}
+```latex
+\newcommand{\Revision}{760e7d3}
+```
 
 The following is used to add the Git revision to the PDF title metadata:
 
-    \makeatletter
-    \AtBeginDocument{
-      \include{revision}
-      \hypersetup{
-        pdftitle = {\@firstname{}~\@lastname{} -- \@title{} -- Rev \Revision},
-      }
-    }
-    \makeatother
+```latex
+\makeatletter
+\AtBeginDocument{
+  \include{revision}
+  \hypersetup{
+    pdftitle = {\@firstname{}~\@lastname{} -- \@title{} -- Rev \Revision},
+  }
+}
+\makeatother
+```
 
 [christopher\_wilson\_resume.pdf]: https://cdwilson.github.io/resume/christopher_wilson_resume.pdf
 [christopher\_wilson\_resume.md]: https://github.com/cdwilson/resume/blob/master/christopher_wilson_resume.md
