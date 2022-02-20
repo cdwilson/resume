@@ -1,6 +1,9 @@
-# [Christopher Wilson's Résumé][]
+# Christopher Wilson's Résumé
 
-Download [christopher\_wilson\_resume.pdf][]
+| Format   | Download                            |
+| -------- | ----------------------------------- |
+| PDF      | [christopher\_wilson\_resume.pdf][] |
+| Markdown | [christopher\_wilson\_resume.md][]  |
 
 ### Build instructions
 
@@ -64,9 +67,9 @@ The following is used to add the Git revision to the PDF title metadata:
     }
     \makeatother
 
-  [Christopher Wilson's Résumé]: #
-  [christopher\_wilson\_resume.pdf]: https://github.com/cdwilson/resume/raw/gh-pages/christopher_wilson_resume.pdf
-  [moderncv]: https://launchpad.net/moderncv
-  [TeX Live]: https://www.tug.org/texlive/
-  [MacTeX]: http://www.tug.org/mactex/
-  [pdflatex-makefile]: http://github.com/ransford/pdflatex-makefile
+[christopher\_wilson\_resume.pdf]: https://cdwilson.github.io/resume/christopher_wilson_resume.pdf
+[christopher\_wilson\_resume.md]: https://github.com/cdwilson/resume/blob/master/christopher_wilson_resume.md
+[moderncv]: https://launchpad.net/moderncv
+[TeX Live]: https://www.tug.org/texlive/
+[MacTeX]: http://www.tug.org/mactex/
+[pdflatex-makefile]: http://github.com/ransford/pdflatex-makefile
