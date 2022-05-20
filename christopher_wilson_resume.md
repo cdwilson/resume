@@ -13,7 +13,7 @@ GitHub: https://github.com/cdwilson
 Vocational Experience
 ---------------------
 
-2022 – Present, **Technical Advisor**, [Tempo Automation](https://www.tempoautomation.com), San Francisco, CA  
+2022, **Technical Advisor**, [Tempo Automation](https://www.tempoautomation.com), San Francisco, CA  
 2018 – 2021, **Senior Technical Product Manager**  
 2018, **Technical Product Manager**  
 *Software-Accelerated PCBA Manufacturing*  
@@ -40,7 +40,7 @@ Vocational Experience
 Personal Projects
 -----------------
 
-2010 – Present, **Proprietor**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
+2010 – Present, **Principal**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
 *Open-source hardware design*  
 
 * Designed open-source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
