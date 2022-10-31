@@ -51,7 +51,7 @@ Skills & Interests
 ------------------
 **Product ::** Jira, Confluence, Git/Github, Python  
 **Electronics ::** KiCad, Cadence Concept & Allegro, OrCAD Capture, Autodesk EAGLE, Arena PLM, Oracle Agile PLM, lab safety, PCBA bring-up \& rework  
-**Interests ::** Embedded systems, traveling, mountain biking, surfing, social justice projects  
+**Interests ::** Embedded systems, traveling, mountain biking, surfing
 
 
 Education
