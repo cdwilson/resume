@@ -1,6 +1,5 @@
 Chris Wilson
 ------------
-***I build things.***
 
 Castro Valley, CA  
 Phone: +1 (858) 722 2298  
@@ -40,7 +39,7 @@ Vocational Experience
 Personal Projects
 -----------------
 
-2010 – Present, **Principal**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
+2010 – 2013, **Owner**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
 *Open-source hardware design*  
 
 * Designed open-source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
