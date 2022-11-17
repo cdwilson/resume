@@ -25,15 +25,15 @@ Vocational Experience
 2010 – 2018, **Electronics Design Engineer**, [Cisco Systems](https://www.cisco.com), San Jose, CA  
 *Industrial Internet of Things (IIoT) solutions for Smart Grid*  
 
-* Co-designed Cisco's first industrial IOx "fog" compute module, enabling customers to run custom IoT applications on Cisco 1000 Series Connected Grid Routers.
-* Lead electronics design engineer for IEEE 802.15.4g hardware reference designs used by Cisco DevNet partners to develop 3rd-party Connected Grid Endpoint (CGE) devices.
+* Co-designed Cisco's first industrial IOx "fog" [compute module](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-connected-grid-routers/datasheet-c78-739683.html), enabling customers to run custom IoT applications on Cisco 1000 Series Connected Grid Routers.
+* Lead electronics design engineer for IEEE 802.15.4g hardware reference designs used by Cisco DevNet partners to develop 3rd-party [Cisco Resilient Mesh End Point (CRME)](https://developer.cisco.com/docs/ipv6-mesh/#!sdk/resilient-mesh-new) devices.
 * Developed the world's largest closed-circuit mesh network testbed consisting of over 5000 IoT hardware endpoint devices, unlocking CI/CD workflows and remote development/debug/testing for internal firmware development teams.
 
 2007 – 2010, **Electronics Design Engineer**, [Arch Rock (acquired by Cisco Systems)](https://www.cisco.com/c/en/us/about/corporate-strategy-office/acquisitions/arch-rock.html), San Francisco, CA  
 *Pioneer in IP-based wireless sensor network technology*  
 
 * Responsible for transition to agile in-house hardware design and manufacturing.  Adopted industry standard EDA, DFM, PLM tools and methodology to scale hardware development from prototype to production.
-* Designed and launched 802.15.4 2.4GHz PhyNet™ wireless sensors and router network interface cards for enterprise-scale wireless sensor networks.
+* Designed and launched 802.15.4 2.4GHz [PhyNet™](https://www.si.edu/object/arch-rock-phynet-wireless-sensor-network%3Anmah_1822657) wireless sensors and router network interface cards for enterprise-scale wireless sensor networks.
 
 
 Personal Projects
