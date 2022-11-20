@@ -26,7 +26,7 @@ Vocational Experience
 *Industrial Internet of Things (IIoT) solutions for Smart Grid*  
 
 * Co-designed Cisco's first industrial IOx "fog" [compute module](https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-connected-grid-routers/datasheet-c78-739683.html), enabling customers to run custom IoT applications on Cisco 1000 Series Connected Grid Routers.
-* Lead electronics design engineer for IEEE 802.15.4g hardware reference designs used by Cisco DevNet partners to develop 3rd-party [Cisco Resilient Mesh End Point (CRME)](https://developer.cisco.com/docs/ipv6-mesh/#!sdk/resilient-mesh-new) devices.
+* Lead electronics designer for IEEE 802.15.4g hardware reference designs used by Cisco DevNet partners to develop 3rd-party [Cisco Resilient Mesh End Point (CRME)](https://developer.cisco.com/docs/ipv6-mesh/#!sdk/resilient-mesh-new) devices.
 * Developed the world's largest closed-circuit mesh network testbed consisting of over 5000 IoT hardware endpoint devices, unlocking CI/CD workflows and remote development/debug/testing for internal firmware development teams.
 
 2007 – 2010, **Electronics Design Engineer**, [Arch Rock (acquired by Cisco Systems)](https://www.cisco.com/c/en/us/about/corporate-strategy-office/acquisitions/arch-rock.html), San Francisco, CA  
