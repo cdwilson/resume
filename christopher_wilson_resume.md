@@ -39,7 +39,7 @@ Vocational Experience
 Personal Projects
 -----------------
 
-2010 – 2013, **Owner**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
+2009 – 2015, **Owner**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
 *Open-source hardware design*  
 
 * Designed open-source hardware boot-strap loader (BSL) programmer for TI MSP430 MCUs.
