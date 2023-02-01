@@ -12,6 +12,9 @@ GitHub: https://github.com/cdwilson
 Vocational Experience
 ---------------------
 
+2022 – Present, **Principal**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
+*Electronics design services consultancy*
+
 2022, **Technical Advisor**, [Tempo Automation](https://www.tempoautomation.com), San Francisco, CA  
 2018 – 2021, **Senior Technical Product Manager**  
 2018, **Technical Product Manager**  
@@ -48,9 +51,6 @@ Vocational Experience
 
 Personal Projects
 -----------------
-
-2022 – Present, **Principal**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
-*Electronics design services consultancy*
 
 2009 – 2015, **Owner**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
 *Open-source hardware design*  
