@@ -49,10 +49,8 @@ Vocational Experience
 Personal Projects
 -----------------
 
-2022 – Present, **Owner**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
-*Open-source hardware design*  
-
-* Coming soon…
+2022 – Present, **Principal**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
+*Electronics design services consultancy*
 
 2009 – 2015, **Owner**, [Flying Camp Design](https://flyingcamp.design), Castro Valley, CA  
 *Open-source hardware design*  
