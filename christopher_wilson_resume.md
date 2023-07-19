@@ -13,7 +13,7 @@ Vocational Experience
 ---------------------
 
 2022 – Present, **Principal**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
-*Electronics design services consultancy*
+*Boutique embedded systems engineering services firm*
 
 2022, **Technical Advisor**, [Tempo Automation](https://www.tempoautomation.com), San Francisco, CA  
 2018 – 2021, **Senior Technical Product Manager**  
