@@ -72,7 +72,7 @@ The following is used to add the Git revision to the PDF title metadata:
 ```
 
 [christopher\_wilson\_resume.pdf]: https://cdwilson.github.io/resume/christopher_wilson_resume.pdf
-[christopher\_wilson\_resume.md]: https://github.com/cdwilson/resume/blob/master/christopher_wilson_resume.md
+[christopher\_wilson\_resume.md]: https://github.com/cdwilson/resume/blob/main/christopher_wilson_resume.md
 [moderncv]: https://launchpad.net/moderncv
 [TeX Live]: https://www.tug.org/texlive/
 [MacTeX]: http://www.tug.org/mactex/
