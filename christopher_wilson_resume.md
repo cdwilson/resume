@@ -12,7 +12,7 @@ GitHub: https://github.com/cdwilson
 Vocational Experience
 ---------------------
 
-2022 – Present, **Principal**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
+2022 – Present, **Principal Engineer**, [Common Ground Electronics](https://cgnd.dev), Castro Valley, CA  
 *Boutique embedded systems engineering services firm*
 
 2022, **Technical Advisor**, [Tempo Automation](https://www.tempoautomation.com), San Francisco, CA  
